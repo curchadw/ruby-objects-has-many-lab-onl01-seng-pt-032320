@@ -9,7 +9,7 @@ class Artist
 
   def songs
     @@all.select do |song|
-      song.artist
+      song
     end
   end
   
