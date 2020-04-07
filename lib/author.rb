@@ -7,6 +7,7 @@ class Author
   def initialize(name)
     @name = name
     # @@all.push(self)
+    @post = []
   end
   
   def posts
