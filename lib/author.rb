@@ -6,6 +6,10 @@ class Author
   
   def initialize(name)
     @name = name
-   
+    @@all.push(self)
+  end
+  
+  def post
+    
   end
 end
