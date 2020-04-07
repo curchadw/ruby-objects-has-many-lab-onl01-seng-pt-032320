@@ -1,5 +1,7 @@
 class Post
   
+  
+  
 
 
 end
