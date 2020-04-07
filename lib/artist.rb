@@ -14,7 +14,9 @@ class Artist
   end
   
   def add_song(song)
-    song.artist = artist
+    Song.all.select do |song|
+      song.artist = self
+    end
   end
 
   
