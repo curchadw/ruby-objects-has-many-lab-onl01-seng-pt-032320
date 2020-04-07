@@ -11,6 +11,10 @@ class Artist
     @songs
   end
   
+  def add_song(song)
+    
+  end
+  
   def self.all
     @@all.select{|song| song}
   end
