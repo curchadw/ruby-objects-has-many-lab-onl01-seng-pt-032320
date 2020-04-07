@@ -9,7 +9,7 @@ class Author
     @@all.push(self)
   end
   
-  def post
-    
+  def posts
+    Post.all.select {|post| }
   end
 end
