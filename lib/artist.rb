@@ -9,6 +9,8 @@ class Artist
 
   def songs
     @@all.select do |song|
+      
+    end
   end
   
   def add_song(song)
