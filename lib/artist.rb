@@ -16,7 +16,7 @@ class Artist
   end
   
   def self.all
-    @@all.select{|song| song}
+    @@all
   end
   
   
