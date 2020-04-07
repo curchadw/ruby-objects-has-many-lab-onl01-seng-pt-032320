@@ -19,6 +19,7 @@ class Author
   def add_post(post)
     Post.all.select do |post|
       post.author = self #self is referring to the instance
+      @@post_count += 1
     end
   end
   
