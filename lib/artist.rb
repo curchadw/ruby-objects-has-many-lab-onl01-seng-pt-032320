@@ -9,7 +9,7 @@ class Artist
 
   def songs
     Song.all.select do |song|
-      song.artist == self
+      song.artist == self #self is referring to the instance
     end
   end
   
