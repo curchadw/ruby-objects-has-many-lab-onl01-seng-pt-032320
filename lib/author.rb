@@ -1,5 +1,5 @@
 class Author 
-  @all = Array.new
+  
   
   attr_accessor :name ,:post
   
