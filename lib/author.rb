@@ -11,8 +11,10 @@ class Author
   end
   
   def posts
-     Post.all.select do |post|
-      post.authort == self #self is referring to the instance
+     Post.all.select do |entry|
+      entry.authort == self #self is referring to the instance
     end
   end
+  
+  
 end
