@@ -16,5 +16,10 @@ class Author
     end
   end
   
+  def add_post(post)
+    Post.all.select do |entry|
+      entry.author == self #self is referring to the instance
+    end
+  end
   
 end
