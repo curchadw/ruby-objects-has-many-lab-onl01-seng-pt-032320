@@ -1,7 +1,7 @@
 class Author 
   
   
-  attr_accessor :name ,:post
+  attr_accessor :name
   @all = Array.new
   
   def initialize(name)
