@@ -3,7 +3,7 @@ class Song
   
   @@all =[]
   
-  def initialized(name)
+  def initialize(name)
     @name = name
     @@all.push(self)
   end
