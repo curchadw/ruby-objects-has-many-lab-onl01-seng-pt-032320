@@ -17,6 +17,7 @@ class Artist
     Song.all.select do |song|
       song.artist = self
     end
+    @@song_count +=1
     
   end
   
